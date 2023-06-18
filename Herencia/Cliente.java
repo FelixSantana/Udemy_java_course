@@ -38,7 +38,7 @@ public class Cliente extends Persona{
       y si es vip */
     @Override
     public String toString() {
-        return super.toString() + ", Fecha de registro: " + fechaRegistro + "VIP: " + vip;
+        return super.toString() + ", Fecha de registro: " + fechaRegistro + ", VIP: " + vip;
     }
 
 }
